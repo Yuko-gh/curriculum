@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* DivPuzzle2 */
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+.header {
+    background-color: #141f40;
+    height: 100px;
+}
+.left {
+    background-color: #80bfa8;
+    width: 150px;
+    height: 250px;
+    float: left;
+}
+.right {
+    width: 250px;
+    float: left;
+}
+.r-left {
+    float: left;
+    width: 150px;
+}
+.left1 {
+    background-color: #dbd400;
+    height: 50px;
+}
+.left2 {
+    background-color: #0093b7;
+    height: 100px;
+}
+.right1 {
+    background-color: #ff9e6b;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+.r-foot {
+    background-color: #8c2727;
+    width: 250px;
+    height: 100px;
+}
+.footer {
+    background-color: #d98d30;
+    height: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        width: 300px;
+    }
+    .left {
+        width: 100px;
+    }
+    .right {
+        width: 200px;
+    }
+    .r-left {
+        width: 125px;
+    }
+    .right1 {
+        width: 75px;
+    }
+    .r-foot {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .content {
+        width: 150px;
+    }
+    .left {
+        width: 150px;
+        float: none;
+    }
+    .right {
+        width: 150px;
+        float: none;
+    }
+    .r-left {
+        width: 150px;
+        float: none;
+    }
+    .right1 {
+        width: 150px;
+    }
+    .r-foot {
+        width: 150px;
+    }
+
+}
