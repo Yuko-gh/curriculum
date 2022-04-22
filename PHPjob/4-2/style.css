@@ -1,0 +1,50 @@
+.head {
+    width: 1000px;
+    margin: 0px auto;
+}
+.logo {
+    background-color: #add8e6;
+    width: 200px;
+    height: 120px;
+    justify-items: center;
+    align-items: center;
+    float: left;
+}
+.had_t {
+    display: flex;
+    background-color: #87ceeb;
+    width: 800px;
+    height: 60px;
+    float: left;
+    justify-content: flex-end;
+    align-items: center;
+}
+.had_b {
+    display: flex;
+    background-color: #00FFFF; 
+    width: 800px;
+    height: 60px;
+    float: left;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main {
+    clear: both;
+    padding: 10px 0px;
+}
+table {
+    margin: 0px auto;
+}
+table th {
+    background-color: #87ceeb;
+}
+table td {
+    background-color: #e0ffff;
+    text-align: center;
+}
+.foot {
+    background-color: #00ced1;
+    width: 1000px;
+    margin: 0px auto;
+    height: 50px;
+}
