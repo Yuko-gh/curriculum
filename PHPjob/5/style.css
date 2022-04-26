@@ -1,0 +1,57 @@
+.link_b {
+    border:none;
+    border-radius: 4px;
+    background:royalblue;
+    color:white;
+    padding: 5px 50px;
+    cursor: pointer;
+}
+.ank_g {
+    text-decoration:none;
+    padding: 5px 10px;
+    margin: 25px 10px 0px;
+    background: lightseagreen;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ank_gr {
+    text-decoration:none;
+    border:none;
+    border-radius: 4px;
+    background:gray;
+    color:white;
+    padding: 5px 20px;
+}
+.ank_b {
+    text-decoration:none;
+    border:none;
+    border-radius: 4px;
+    background:royalblue;
+    color:white;
+    padding: 5px 20px;
+}
+.ank_r {
+    text-decoration:none;
+    margin:0px;
+    border:none;
+    border-radius: 4px;
+    background:crimson;
+    color:white;
+    padding: 5px 20px;
+}
+.main_table {
+    margin: 20px;
+    width: 800px;
+}
+.main_table th {
+    padding: 10px;
+    background: #DDD;
+    text-align: center;
+    border: 1px outset #CCC;
+}
+.main_table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px outset #CCC;
+}

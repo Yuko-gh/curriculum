@@ -1,0 +1,15 @@
+C:\xampp\mysql\bin\mysql.exe -u root
+
+DROP DATABASE IF EXISTS checktest5;
+CREATE DATABASE checktest5 CHARACTER SET utf8;USE checktest5;
+CREATE TABLE books (id INT NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT 'NOT NULL,AUTO_INCREMENT',title VARCHAR(50) NOT NULL COMMENT '本のタイトル',date date NOT NULL COMMENT '本の発売日',stock INT NOT NULL COMMENT '在庫数')DEFAULT CHARSET=utf8;
+CREATE TABLE users (id INT NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT 'NOT NULL,AUTO_INCREMENT',name VARCHAR(50) NOT NULL COMMENT 'ユーザー名',password VARCHAR(255) NOT NULL COMMENT 'パスワード,ハッシュ化して保存すること')DEFAULT CHARSET=utf8;
+
+INSERT INTO users(name, password) VALUES('AAAA','$2y$10$3zjFZodMxhmmOGc95xwgp.3dTEWHdrG.5vE5r04qkyGH0PEB/uHgW');
+INSERT INTO users(name, password) VALUES('zzz','$2y$10$2aLrMhDmDr6ZnXZvl3Ul0uhrJRr1dJ7AVxBvJCgfvSA.eAPbUcURK');
+INSERT INTO books(title, date, stock) VALUES('あぁ青春','2022-04-01',4);
+INSERT INTO books(title, date, stock) VALUES('Javaプログラミング','2015-11-19',3);
+INSERT INTO books(title, date, stock) VALUES('HTML＆CSS','2013-10-15',4);
+DELETE FROM books WHERE id = '1';
+INSERT INTO books(title, date, stock) VALUES('フレームワーク','2021-12-08',5);
+INSERT INTO books(title, date, stock) VALUES('PHP完全マニュアル','2021-07-08',3);
