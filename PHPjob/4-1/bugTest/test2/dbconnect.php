@@ -9,4 +9,4 @@ $db['user'] = "root";
 // ユーザー名のパスワード
 $db['pass'] = "";
 // データベース名
-$db['dbname'] = "loginManagement";
+$db['dbname'] = "YIGroupBlog";
